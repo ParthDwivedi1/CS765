@@ -1,0 +1,19 @@
+---- Running instructions ----
+
+1. Take the Payment.sol file and place it inside the contracts folder,
+    inside the folder where truffle init has been run.
+
+2. Run ganache-cli in a terminal.
+
+3. Run truffle migrate to deploy the contract
+    (Make sure to change the name of the deployed contract to 
+     Payment)
+
+4. Take the address of the deployed contract and paste it in the
+    clients.py file.
+
+5. Run the clients.py file as python3 clients.py.
+
+This should run the transactions as specified in
+the paper, and finally display a graph of the number of 
+transactions and ratio of successful to total transactions.
