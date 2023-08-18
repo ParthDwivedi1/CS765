@@ -1,0 +1,14 @@
+CS765 Assignment 1
+
+Discrete Event Time Simulator
+
+Usage: python simulator.py [--peers PEERS] [--slow SLOW] [--lowcpu LOWCPU] [--meantransactiontime MEANTRANSACTIONTIME] [--meanblocktime MEANBLOCKTIME]
+
+PEERS - Number of peers
+SLOW - Percentage of peers which are slow
+LOWCPU - Percentage of peers which are lowcpu
+MEANTRANSACTIONTIME - Average inter arrival time between transactions
+MEANBLOCKTIME - Average interarrival time between blocks
+
+Starts out by printing the initialization tasks that the task list is initialized with.
+Then prints a description of the task under consideration and the tasks that were added due to this.
